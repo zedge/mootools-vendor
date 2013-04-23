@@ -1,4 +1,3 @@
-
 Vendor-prefixed `setStyle`
 ==========================
 
@@ -11,14 +10,14 @@ monkeypatch the `Element.setStyle` function to support prefixes.
 
 ## Example
 
-  el.setStyle('animation-name', 'boss');
+    el.setStyle('animation-name', 'boss');
 
-  // -webkit-animation-name: 'boss'
-  // -khtml-animation-name: 'boss'
-  // -moz-animation-name: 'boss'
-  // -ms-animation-name: 'boss'
-  // -o-animation-name: 'boss'
-  // animation-name: 'boss'
+    // -webkit-animation-name: 'boss'
+    // -khtml-animation-name: 'boss'
+    // -moz-animation-name: 'boss'
+    // -ms-animation-name: 'boss'
+    // -o-animation-name: 'boss'
+    // animation-name: 'boss'
 
 
 ## Note
