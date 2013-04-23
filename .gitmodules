@@ -1,0 +1,9 @@
+
+[submodule "spec/expect"]
+  path = spec/expect
+  url = https://github.com/LearnBoost/expect.js.git
+
+[submodule "spec/mocha"]
+  path = spec/mocha
+  url = https://github.com/visionmedia/mocha.git
+
