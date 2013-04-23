@@ -1,6 +1,14 @@
 
 /*!
- * Copyright 2011 Zedge Holdings, Inc.
+ * Vendor-prefixed `setStyle`
+ *
+ * Works as `Element.setStyle` except if you pass it a css3 property that
+ * need prefixing it will "automagically" do that for you.
+ *
+ * https://github.com/zedge/mootools-vendor
+ *
+ *
+ * Copyright 2013 Zedge Holdings, Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not
  * use this file except in compliance with the License. You may obtain a copy of
@@ -13,13 +21,6 @@
  * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
  * License for the specific language governing permissions and limitations under
  * the License.
- */
-
-/**
- * Vendor-prefixed `setStyle`
- *
- * Works as `Element.setStyle` except if you pass it a css3 property that
- * need prefixing it will "automagically" do that for you.
  */
 
 (function() {
